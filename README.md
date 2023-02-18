@@ -1,2 +1,2 @@
-# lesson_3_hw_2_Github
-lesson_3_hw_2_Github
+# lesson_3_hw_2_github
+lesson_3_hw_2_github
