@@ -1,3 +1,6 @@
+from http.cookies import SimpleCookie
+
+
 def parsed(query: str) -> dict:
     return {}
 
@@ -11,7 +14,9 @@ if __name__ == '__main__':
 
 
 def parse_cookie(query: str) -> dict:
-    return {}
+    cookie = SimpleCookie()
+    cookie.load(query)
+    return {k: v.value for k, v in cookie.items()}
 
 
 if __name__ == '__main__':
